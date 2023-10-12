@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "storybook": "storybook dev --port 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@nuxtjs/storybook": "7.0.0",
+    "@storybook-vue/nuxt": "0.1.7",
+    "@storybook/addon-essentials": "7.5.0-alpha.3",
+    "@storybook/addon-interactions": "7.5.0-alpha.3",
+    "@storybook/addon-links": "7.5.0-alpha.3",
+    "@storybook/blocks": "7.5.0-alpha.3",
+    "@storybook/builder-vite": "7.5.0-alpha.3",
+    "@storybook/testing-library": "^0.2.0",
+    "@storybook/vue3": "7.5.0-alpha.3",
+    "@storybook/vue3-vite": "7.5.0-alpha.3",
+    "@types/node": "^18.17.5",
+    "nuxt": "^3.6.5",
+    "storybook": "7.5.0-alpha.3",
+    "vue": "^3.3.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "nuxt": "3.6.5"
+    }
+  }
+}
